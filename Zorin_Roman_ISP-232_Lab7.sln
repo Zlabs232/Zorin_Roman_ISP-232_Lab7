@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorin_Roman_ISP-232_Lab7", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickRandomCards", "PickRandomCards\PickRandomCards.csproj", "{97AEFEEC-2AEA-4018-8A15-32B4259A92FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Task", "1_Task\1_Task.csproj", "{010DF9A9-09E1-4457-B3C1-495423B3B8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97AEFEEC-2AEA-4018-8A15-32B4259A92FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AEFEEC-2AEA-4018-8A15-32B4259A92FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AEFEEC-2AEA-4018-8A15-32B4259A92FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010DF9A9-09E1-4457-B3C1-495423B3B8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010DF9A9-09E1-4457-B3C1-495423B3B8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010DF9A9-09E1-4457-B3C1-495423B3B8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010DF9A9-09E1-4457-B3C1-495423B3B8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
