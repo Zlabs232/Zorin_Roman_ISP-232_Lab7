@@ -1,4 +1,6 @@
-﻿namespace Zorin_Roman_ISP_232_Lab7
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Zorin_Roman_ISP_232_Lab7
 {
     internal class Program
     {
@@ -46,6 +48,13 @@
             tv.SetVolume(35);
 
             Student anton = new Student("Anton", 19, "ISP-232");
+
+            Person bob = new Person(18);
+            bob.CheckAge();
+            Person tom = new(37);
+            tom.CheckAge();
+            Console.WriteLine(Person.retirementAge);
+            Person.retirementAge = 67;
         }
     }
 
