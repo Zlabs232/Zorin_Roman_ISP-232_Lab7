@@ -17,6 +17,18 @@
             Console.WriteLine($"Студент {Denis.name} " +
                 $"совершеннолетний - {Denis.IsAdult(Denis.age)}");
 
+            Student neighbor = new Student();
+
+            Console.Write("Введите имя соседа: ");
+            neighbor.name = Console.ReadLine();
+
+            Console.Write("Введите возраст соседа: ");
+            neighbor.age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Введите группу соседа: ");
+            neighbor.group = Console.ReadLine();
+
+            neighbor.PrintInfo();
         }
     }
 
