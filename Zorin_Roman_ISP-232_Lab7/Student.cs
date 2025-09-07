@@ -4,6 +4,13 @@
     public int age;
     public string? group;
 
+    public Student()
+    {
+        Console.WriteLine("Создание объекта Student");
+        name = "Неизвестно";
+        age = 18;
+        group = "Неизвестно";
+    }
     public void PrintInfo()
     {
         Console.WriteLine($"Имя: {name}, Возраст: {age}, Группа: {group}.");
@@ -13,4 +20,9 @@
     {
         return age >= 18;
     }
+    public Student(string yorName) { name = yorName; age = 18; group = "Неизвестно"; }
+
+    public Student(string yorName, int yourAge) { name = yorName; age = yourAge; group = "Неизвестно"; }
+
+    public Student(string yorName, int yourAge, string yourGroup) { name = yorName; age = yourAge; group = yourGroup; }
 }

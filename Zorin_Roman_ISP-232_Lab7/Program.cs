@@ -45,6 +45,7 @@
             television tv = new television();
             tv.SetVolume(35);
 
+            Student anton = new Student("Anton", 19, "ISP-232");
         }
     }
 
