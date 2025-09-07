@@ -24,5 +24,5 @@
 
     public Student(string yorName, int yourAge) { name = yorName; age = yourAge; group = "Неизвестно"; }
 
-    public Student(string yorName, int yourAge, string yourGroup) { name = yorName; age = yourAge; group = yourGroup; }
+    public Student(string name, int yourAge, string yourGroup) { this.name = name; age = yourAge; group = yourGroup; }
 }
