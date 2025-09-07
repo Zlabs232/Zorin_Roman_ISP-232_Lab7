@@ -29,23 +29,17 @@
             neighbor.group = Console.ReadLine();
 
             neighbor.PrintInfo();
+
+            Car myCar = new Car();
+
+            myCar.model = "Toyota";
+            Console.WriteLine($"Moдель: {myCar.model}");
+
+            myCar.Accelerate(20);
+
+
         }
     }
 
-    class Student
-    {
-        public string? name;
-        public int age;
-        public string? group;
-
-        public void PrintInfo()
-        {
-            Console.WriteLine($"Имя: {name}, Возраст: {age}, Группа: {group}.");
-        }
-
-        public bool IsAdult(int age)
-        {
-            return age >= 18;
-        }
-    }
+    
 }
