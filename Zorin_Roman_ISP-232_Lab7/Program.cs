@@ -7,14 +7,21 @@
             Console.WriteLine("Hello, World!");
             Student Denis = new Student();
             Console.WriteLine(Denis);
+
+            Denis.name = "Roman";
+            Denis.age = 18;
+            Denis.group = "ISP-232";
+
+            Denis.PrintInfo();
+
         }
     }
 
     class Student
     {
-        string? name;
-        int age;
-        string? group;
+        public string? name;
+        public int age;
+        public string? group;
 
         public void PrintInfo()
         {
