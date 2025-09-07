@@ -41,6 +41,10 @@
 
             player.takeDamage(34);
             Console.WriteLine(player.GetHealth());
+
+            television tv = new television();
+            tv.SetVolume(35);
+
         }
     }
 
