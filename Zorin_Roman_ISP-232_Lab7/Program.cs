@@ -37,7 +37,10 @@
 
             myCar.Accelerate(20);
 
+            Player player = new Player();
 
+            player.takeDamage(34);
+            Console.WriteLine(player.GetHealth());
         }
     }
 
