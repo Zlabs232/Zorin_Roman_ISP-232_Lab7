@@ -14,6 +14,9 @@
 
             Denis.PrintInfo();
 
+            Console.WriteLine($"Студент {Denis.name} " +
+                $"совершеннолетний - {Denis.IsAdult(Denis.age)}");
+
         }
     }
 
@@ -26,6 +29,11 @@
         public void PrintInfo()
         {
             Console.WriteLine($"Имя: {name}, Возраст: {age}, Группа: {group}.");
+        }
+
+        public bool IsAdult(int age)
+        {
+            return age >= 18;
         }
     }
 }
